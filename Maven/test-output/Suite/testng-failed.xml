@@ -5,6 +5,7 @@
     <classes>
       <class name="package1.Hello"/>
       <class name="package1.Hello2"/>
+      <class name="package1.Hello3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

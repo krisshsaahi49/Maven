@@ -25,8 +25,7 @@
 					</systemPropertyVariables>
 					<reportsDirectory>${basedir}/test-output/surefire-reports/</reportsDirectory>
 					<suiteXmlFiles>
-				<!--		<suiteXmlFile>${xmlFileName}</suiteXmlFile> -->
-					<suiteXmlFile>testng.xml</suiteXmlFile>	
+						<suiteXmlFile>${xmlFileName}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

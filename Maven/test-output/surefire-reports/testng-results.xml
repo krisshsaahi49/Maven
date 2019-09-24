@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42" started-at="2019-09-24T17:43:33Z" finished-at="2019-09-24T17:43:33Z">
+  <suite name="Suite" duration-ms="47" started-at="2019-09-24T18:47:48Z" finished-at="2019-09-24T18:47:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42" started-at="2019-09-24T17:43:33Z" finished-at="2019-09-24T17:43:33Z">
-      <class name="package1.Hello2">
-        <test-method status="PASS" signature="hello()[pri:0, instance:package1.Hello2@8bc3d5]" name="hello" duration-ms="0" started-at="2019-09-24T23:13:33Z" finished-at="2019-09-24T23:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hello -->
-      </class> <!-- package1.Hello2 -->
+    <test name="Test" duration-ms="47" started-at="2019-09-24T18:47:48Z" finished-at="2019-09-24T18:47:48Z">
       <class name="package1.Hello">
-        <test-method status="PASS" signature="test()[pri:0, instance:package1.Hello@1ebec15]" name="test" duration-ms="20" started-at="2019-09-24T23:13:33Z" finished-at="2019-09-24T23:13:33Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:package1.Hello@1bcffb5]" name="test" duration-ms="31" started-at="2019-09-25T00:17:48Z" finished-at="2019-09-25T00:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- package1.Hello -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="0" started-at="2019-09-24T18:47:48Z" finished-at="2019-09-24T18:47:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="0" started-at="2019-09-24T18:47:48Z" finished-at="2019-09-24T18:47:48Z">
+      <class name="package1.Hello3">
+        <test-method status="PASS" signature="hello()[pri:0, instance:package1.Hello3@addb54]" name="hello" duration-ms="0" started-at="2019-09-25T00:17:48Z" finished-at="2019-09-25T00:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- package1.Hello3 -->
+      <class name="package1.Hello2">
+        <test-method status="PASS" signature="hello()[pri:0, instance:package1.Hello2@67b872]" name="hello" duration-ms="0" started-at="2019-09-25T00:17:48Z" finished-at="2019-09-25T00:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- package1.Hello2 -->
+      <class name="package1.Hello">
+        <test-method status="PASS" signature="test()[pri:0, instance:package1.Hello@1624da6]" name="test" duration-ms="0" started-at="2019-09-25T00:17:48Z" finished-at="2019-09-25T00:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- package1.Hello -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
 </testng-results>
